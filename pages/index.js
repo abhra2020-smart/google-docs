@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>Google Docs</title>
+                <title>NexTail Docs</title>
             </Head>
 
             <Header />
