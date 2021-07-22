@@ -2,7 +2,7 @@ import Button from '@material-tailwind/react/Button';
 import Icon from '@material-tailwind/react/Icon';
 
 
-export default function Home() {
+export default function Header() {
     function signOut() {
 
     }

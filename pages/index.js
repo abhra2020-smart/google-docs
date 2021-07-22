@@ -3,12 +3,18 @@ import Image from 'next/image';
 import Header from '../components/Header';
 import Button from '@material-tailwind/react/Button';
 import Icon from '@material-tailwind/react/Icon';
+import { useSession } from 'next-auth/client';
+import Login from "../components/Login";
 
 export default function Home() {
+    const [session] = useSession();
+
+    if (!session) return <Login />;
     return (
         <div>
             <Head>
-                <title>NexTail Docs</title>
+                <title>Google Docs</title>
+                <link rel="icon" src="links.papareact.com/1ui"/>
             </Head>
 
             <Header />
