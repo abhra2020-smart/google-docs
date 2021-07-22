@@ -1,4 +1,5 @@
 import Button from '@material-tailwind/react/Button';
+import Head from 'next/head';
 import Image from '@material-tailwind/react/Image';
 import { signIn } from "next-auth/client";
 
